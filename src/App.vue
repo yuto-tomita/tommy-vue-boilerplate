@@ -2,11 +2,25 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from '@/components/HelloWorld.vue'
+
+const hoge = ['hoge', 'hoge']
+const foo = () => {
+  return { 'a': 'str', 'hoge': 'str' }
+}
+console.log(foo()['a'])
+console.log({ ...foo })
+
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <img
+    alt="Vue logo"
+    src="./assets/logo.png"
+    class="m-auto"
+  >
+  <hello-world
+    msg="Hello tommy boiler template"
+  />
 </template>
 
 <style>
