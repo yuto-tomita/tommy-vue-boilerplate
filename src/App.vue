@@ -3,13 +3,6 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import HelloWorld from '@/components/HelloWorld.vue'
 
-const hoge = ['hoge', 'hoge']
-const foo = () => {
-  return { 'a': 'str', 'hoge': 'str' }
-}
-console.log(foo()['a'])
-console.log({ ...foo })
-
 </script>
 
 <template>
