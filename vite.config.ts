@@ -11,5 +11,8 @@ export default defineConfig({
         replacement: `${__dirname}/src/`
       }
     ]
+  },
+  server: {
+    host: true
   }
 })
