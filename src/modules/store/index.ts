@@ -27,6 +27,10 @@ export const useStore = defineStore({
         {
           id: 3,
           title: 'vite'
+        },
+        {
+          id: 4,
+          title: 'Vitest'
         }
       ]
     }
